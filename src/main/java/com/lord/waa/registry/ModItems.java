@@ -1,5 +1,6 @@
 package com.lord.waa.registry;
 
+import com.lord.waa.compat.MACompat;
 import com.lord.waa.item.WaaArmor;
 import com.lord.waa.item.WaaFood;
 import com.lord.waa.item.WaaItem;
@@ -36,5 +37,6 @@ public final class ModItems {
   ITEMS.put("infinity_boots", new WaaArmor("infinity_boots", EntityEquipmentSlot.FEET));
   ITEMS.put("infinity_matter_apple", new WaaFood());
   Finallium.createItems(ITEMS);
+  MACompat.createSeedsAndEssence();
  }
 }

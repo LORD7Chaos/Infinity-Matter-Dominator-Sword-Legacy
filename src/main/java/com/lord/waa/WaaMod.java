@@ -2,6 +2,7 @@ package com.lord.waa;
 
 import com.lord.waa.client.ClientSetup;
 import com.lord.waa.command.UltraKillCommand;
+import com.lord.waa.compat.MACompat;
 import com.lord.waa.compat.ProjectECompat;
 import com.lord.waa.config.WaaConfig;
 import com.lord.waa.entity.EntityWaaArrow;
@@ -19,7 +20,7 @@ import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = "[1.12.2]")
+@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = "[1.12.2]", dependencies = "after:mysticalagriculture")
 public class WaaMod {
  @Mod.Instance(Reference.MOD_ID)
  public static WaaMod instance;
@@ -39,6 +40,7 @@ public class WaaMod {
   GameRegistry.addSmelting(ModBlocks.get("finallium_debris"), new ItemStack(ModItems.get("finallium_scrap")), 2.0F);
   GameRegistry.registerWorldGenerator(new com.lord.waa.world.FinalliumGen(), 0);
   ProjectECompat.register();
+  MACompat.registerReprocessorRecipes();
  }
 
  @Mod.EventHandler

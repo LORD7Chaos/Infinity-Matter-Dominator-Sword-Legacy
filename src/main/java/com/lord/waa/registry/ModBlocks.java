@@ -1,6 +1,7 @@
 package com.lord.waa.registry;
 
 import com.lord.waa.block.WaaBlock;
+import com.lord.waa.compat.MACompat;
 import com.lord.waa.registry.Specs.BlockSpec;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -16,5 +17,6 @@ public final class ModBlocks {
   ModTabs.create();
   for (BlockSpec s : Specs.BLOCKS) BLOCKS.put(s.id, new WaaBlock(s));
   Finallium.createBlocks(BLOCKS);
+  MACompat.createCrop();
  }
 }

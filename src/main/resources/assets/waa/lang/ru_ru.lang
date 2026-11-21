@@ -172,3 +172,12 @@ tile.waa.infinity_matter_ore.name=Руда бесконечной материи
 tile.waa.infinitycrystalblock.name=Блок бесконечного кристалла
 tile.waa.infinitymatterblock.name=Блок бесконечной материи
 tile.waa.ultimatecrystalblock.name=Блок абсолютного кристалла
+
+item.waa.finallium_seeds.name=Семена финаллиума
+item.waa.finallium_essence.name=Эссенция финаллиума
+item.waa.infinity_crystal_seeds.name=Семена кристалла бесконечности
+item.waa.infinity_crystal_essence.name=Эссенция кристалла бесконечности
+item.waa.chaos_seeds.name=Семена хаоса
+item.waa.chaos_essence.name=Эссенция хаоса
+item.waa.ultimate_crystal_seeds.name=Семена ультимативного кристалла
+item.waa.ultimate_crystal_essence.name=Эссенция ультимативного кристалла

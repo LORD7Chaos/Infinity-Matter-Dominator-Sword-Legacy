@@ -25,7 +25,9 @@ public final class RegistryHandler {
   ModBlocks.create();
   ModItems.create();
   for (Item i : ModItems.all().values()) e.getRegistry().register(i);
-  for (Block b : ModBlocks.all().values()) e.getRegistry().register(new ItemBlock(b).setRegistryName(b.getRegistryName()));
+  for (Block b : ModBlocks.all().values()) {
+   if (!b.getRegistryName().getPath().endsWith("_crop")) e.getRegistry().register(new ItemBlock(b).setRegistryName(b.getRegistryName()));
+  }
  }
 
  @SubscribeEvent

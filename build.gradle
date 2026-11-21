@@ -86,7 +86,7 @@ minecraft {
     useDependencyAccessTransformers.set(propertyBool('use_dependency_at_files'))
 
     username.set(propertyString('minecraft_username'))
-    
+
     // Add any additional tweaker classes here
     extraTweakClasses.addAll(propertyStringList('extra_tweak_classes'))
 
@@ -104,9 +104,9 @@ minecraft {
             Properties props = new Properties().tap { it.load(file('tags.properties').newInputStream()); it }
             if (!props.isEmpty()) {
                 injectedTags.set(props.collectEntries { k, v ->
-                        def interpolated = interpolate(v)
-                        if (interpolated == null || interpolated.isEmpty()) throw new GradleException("Empty tag value found for key: $k")
-                        [(k): interpolated]
+                    def interpolated = interpolate(v)
+                    if (interpolated == null || interpolated.isEmpty()) throw new GradleException("Empty tag value found for key: $k")
+                    [(k): interpolated]
                 })
             }
         }
@@ -221,7 +221,7 @@ processResources {
                 'mixin_package': propertyString('mixin_package')
         )
     }
-    
+
     if (propertyBool('use_access_transformer')) {
         rename '(.+_at.cfg)', 'META-INF/$1'
     }
@@ -245,11 +245,17 @@ jar {
             attribute_map['FMLAT'] = propertyString('access_transformer_locations')
         }
         def mixinConfigs = propertyStringList('mixin_configs')
-        if (!mixinConfigs.isEmpty()) {
+        if (propertyBool('use_mixins') && !mixinConfigs.isEmpty()) {
+            def missingMixinConfigs = mixinConfigs.findAll { config ->
+                !file("src/main/resources/${config}").isFile()
+            }
+            if (!missingMixinConfigs.isEmpty()) {
+                throw new GradleException('Missing Mixin configuration files in src/main/resources: ' + missingMixinConfigs.join(', '))
+            }
             attribute_map['MixinConfigs'] = mixinConfigs.join(',')
         }
         def mixinConnectorClass = propertyString('mixin_connector_class')
-        if (!mixinConnectorClass.isEmpty()) {
+        if (propertyBool('use_mixins') && !mixinConnectorClass.isEmpty()) {
             attribute_map['MixinConnector'] = mixinConnectorClass
         }
         attributes(attribute_map)

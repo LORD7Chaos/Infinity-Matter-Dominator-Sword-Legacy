@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "waa:blocks/infinity_crystal_crop_7"
+  }
+}

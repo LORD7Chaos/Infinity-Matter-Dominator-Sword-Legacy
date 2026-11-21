@@ -172,3 +172,12 @@ tile.waa.infinity_matter_ore.name=Infinity Matter Ore
 tile.waa.infinitycrystalblock.name=Infinity Crystal Block
 tile.waa.infinitymatterblock.name=Infinity Matter Block
 tile.waa.ultimatecrystalblock.name=Ultimate Crystal Block
+
+item.waa.finallium_seeds.name=Finallium Seeds
+item.waa.finallium_essence.name=Finallium Essence
+item.waa.infinity_crystal_seeds.name=Infinity Crystal Seeds
+item.waa.infinity_crystal_essence.name=Infinity Crystal Essence
+item.waa.chaos_seeds.name=Chaos Seeds
+item.waa.chaos_essence.name=Chaos Essence
+item.waa.ultimate_crystal_seeds.name=Ultimate Crystal Seeds
+item.waa.ultimate_crystal_essence.name=Ultimate Crystal Essence

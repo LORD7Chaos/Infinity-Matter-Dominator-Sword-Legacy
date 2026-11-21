@@ -1,0 +1,25 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MEM",
+    "ESE",
+    "MEM"
+  ],
+  "key": {
+    "M": {
+      "item": "waa:ultimatecrystal"
+    },
+    "E": {
+      "item": "mysticalagriculture:crafting",
+      "data": 4
+    },
+    "S": {
+      "item": "mysticalagriculture:crafting",
+      "data": 21
+    }
+  },
+  "result": {
+    "item": "waa:ultimate_crystal_seeds"
+  }
+}

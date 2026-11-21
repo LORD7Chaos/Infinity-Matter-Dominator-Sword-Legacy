@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "waa:blocks/ultimate_crystal_crop_7"
+  }
+}

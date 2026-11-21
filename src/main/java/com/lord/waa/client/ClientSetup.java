@@ -36,6 +36,7 @@ public final class ClientSetup {
  public static void models(ModelRegistryEvent e) {
   for (Item i : ModItems.all().values()) ModelLoader.setCustomModelResourceLocation(i, 0, new ModelResourceLocation(i.getRegistryName(), "inventory"));
   for (net.minecraft.block.Block b : ModBlocks.all().values()) {
+   if (b.getRegistryName().getPath().endsWith("_crop")) continue;
    Item i = Item.getItemFromBlock(b);
    if (i != null) ModelLoader.setCustomModelResourceLocation(i, 0, new ModelResourceLocation(b.getRegistryName(), "inventory"));
   }

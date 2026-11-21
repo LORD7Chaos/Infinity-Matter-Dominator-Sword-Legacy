@@ -1,0 +1,17 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "waa:finallium_essence"
+    }
+  },
+  "result": {
+    "item": "waa:finallium_ingot"
+  }
+}
