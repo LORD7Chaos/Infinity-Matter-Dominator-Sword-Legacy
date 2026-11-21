@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:infinity_crystal"
+    },
+    "1": {
+      "item": "waa:infinity_crystal"
+    },
+    "2": {
+      "item": "waa:infinity_crystal"
+    },
+    "3": {
+      "item": "waa:infinity_crystal"
+    },
+    "4": {
+      "item": "waa:infinity_crystal"
+    },
+    "5": {
+      "item": "waa:infinity_crystal"
+    },
+    "6": {
+      "item": "waa:infinity_crystal"
+    },
+    "7": {
+      "item": "waa:infinity_crystal"
+    },
+    "8": {
+      "item": "waa:infinity_crystal"
+    }
+  },
+  "result": {
+    "item": "waa:infinitycrystalblock",
+    "count": 1
+  }
+}

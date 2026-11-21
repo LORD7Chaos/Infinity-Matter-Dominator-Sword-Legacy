@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:final_matter_singularity_chunk"
+    },
+    "1": {
+      "item": "waa:final_matter_singularity_chunk"
+    },
+    "2": {
+      "item": "waa:final_matter_singularity_chunk"
+    },
+    "3": {
+      "item": "waa:final_matter_singularity_chunk"
+    },
+    "4": {
+      "item": "waa:i_m_final"
+    },
+    "5": {
+      "item": "waa:final_matter_singularity_chunk"
+    },
+    "6": {
+      "item": "waa:final_matter_singularity_chunk"
+    },
+    "7": {
+      "item": "waa:final_matter_singularity_chunk"
+    },
+    "8": {
+      "item": "waa:final_matter_singularity_chunk"
+    }
+  },
+  "result": {
+    "item": "waa:get_nameless",
+    "count": 1
+  }
+}

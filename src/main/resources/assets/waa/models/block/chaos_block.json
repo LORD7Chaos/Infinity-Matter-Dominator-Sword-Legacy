@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "waa:blocks/chaos_ore_block",
+    "particle": "waa:blocks/chaos_ore_block"
+  }
+}

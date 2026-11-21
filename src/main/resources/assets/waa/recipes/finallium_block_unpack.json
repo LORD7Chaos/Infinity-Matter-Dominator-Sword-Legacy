@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "waa:finallium_block"
+    }
+  ],
+  "result": {
+    "item": "waa:finallium_ingot",
+    "count": 9
+  }
+}

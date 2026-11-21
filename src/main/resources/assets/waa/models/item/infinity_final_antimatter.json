@@ -1,0 +1,7 @@
+{
+  "parent": "waa:custom/infinity_final_antimatter",
+  "textures": {
+    "1": "waa:blocks/finmsb",
+    "particle": "waa:items/finm"
+  }
+}

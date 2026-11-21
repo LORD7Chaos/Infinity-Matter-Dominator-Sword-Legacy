@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:chaos_block"
+    },
+    "1": {
+      "item": "waa:chaos_block"
+    },
+    "2": {
+      "item": "waa:chaos_block"
+    },
+    "3": {
+      "item": "waa:chaos_block"
+    },
+    "4": {
+      "item": "waa:chaos_block"
+    },
+    "5": {
+      "item": "waa:chaos_block"
+    },
+    "6": {
+      "item": "waa:chaos_block"
+    },
+    "7": {
+      "item": "waa:chaos_block"
+    },
+    "8": {
+      "item": "waa:chaos_block"
+    }
+  },
+  "result": {
+    "item": "waa:chaoschunk",
+    "count": 1
+  }
+}

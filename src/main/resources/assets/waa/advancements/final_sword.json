@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "waa:i_m_final"
+    },
+    "title": {
+      "translate": "advancements.final_sword.title"
+    },
+    "description": {
+      "translate": "advancements.final_sword.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "final_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "waa:i_m_final",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 64000
+  },
+  "parent": "waa:infinity_matter_final_sword_0"
+}

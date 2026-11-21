@@ -1,0 +1,8 @@
+{
+  "parent": "waa:custom/the_obliterator",
+  "textures": {
+    "0": "waa:blocks/finmsb",
+    "1": "waa:blocks/layers/a",
+    "particle": "waa:items/finm"
+  }
+}

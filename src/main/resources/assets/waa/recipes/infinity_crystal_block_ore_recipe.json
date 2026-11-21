@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "waa:finallium_block"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "waa:finallium_block"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "waa:finallium_block"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "waa:finallium_block"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "item": "waa:infinity_crystal",
+    "count": 1
+  }
+}

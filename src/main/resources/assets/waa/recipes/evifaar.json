@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:annihilator"
+    },
+    "1": {
+      "item": "waa:infinity_final_antimatter_annihilator_rifle"
+    },
+    "2": {
+      "item": "waa:annihilator"
+    },
+    "3": {
+      "item": "waa:infinity_final_antimatter_annihilator_rifle"
+    },
+    "4": {
+      "item": "waa:infinity_final_antimatter_annihilator_rifle"
+    },
+    "5": {
+      "item": "waa:infinity_final_antimatter_annihilator_rifle"
+    },
+    "6": {
+      "item": "waa:annihilator"
+    },
+    "7": {
+      "item": "waa:infinity_final_antimatter_annihilator_rifle"
+    },
+    "8": {
+      "item": "waa:annihilator"
+    }
+  },
+  "result": {
+    "item": "waa:get_the_sword_of_end",
+    "count": 1
+  }
+}

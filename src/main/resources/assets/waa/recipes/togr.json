@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:the_weapon_of_end"
+    },
+    "1": {
+      "item": "waa:the_sword_of_end"
+    },
+    "2": {
+      "item": "waa:the_sword_of_end"
+    },
+    "3": {
+      "item": "waa:the_weapon_of_end"
+    },
+    "5": {
+      "item": "waa:the_sword_of_end"
+    },
+    "6": {
+      "item": "waa:the_weapon_of_end"
+    },
+    "7": {
+      "item": "waa:the_weapon_of_end"
+    },
+    "8": {
+      "item": "waa:the_sword_of_end"
+    }
+  },
+  "result": {
+    "item": "waa:gtwoeg",
+    "count": 1
+  }
+}

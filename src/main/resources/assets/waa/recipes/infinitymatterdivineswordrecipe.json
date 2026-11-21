@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:chaoscrystal"
+    },
+    "1": {
+      "item": "waa:chaoscrystal"
+    },
+    "2": {
+      "item": "waa:divinecrystal"
+    },
+    "3": {
+      "item": "waa:i_m_destruction"
+    },
+    "4": {
+      "item": "waa:divinecrystal"
+    },
+    "5": {
+      "item": "waa:chaoscrystal"
+    },
+    "6": {
+      "item": "waa:i_m_ultimate"
+    },
+    "7": {
+      "item": "waa:i_m_dominator"
+    },
+    "8": {
+      "item": "waa:chaoscrystal"
+    }
+  },
+  "result": {
+    "item": "waa:i_m_divine",
+    "count": 1
+  }
+}

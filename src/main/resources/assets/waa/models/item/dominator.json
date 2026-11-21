@@ -1,0 +1,9 @@
+{
+  "parent": "waa:custom/gimbs",
+  "textures": {
+    "0": "waa:blocks/layers/aaaaaaaaa",
+    "1": "waa:blocks/layers/zzzzzz",
+    "2": "waa:blocks/layers/rainbow",
+    "particle": "waa:items/lastsword"
+  }
+}

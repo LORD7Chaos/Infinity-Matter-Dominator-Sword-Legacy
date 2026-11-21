@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "waa:blocks/chaoschunkblock",
+    "up": "waa:blocks/chaoschunkblock",
+    "north": "waa:blocks/chaoschunkblock",
+    "east": "waa:blocks/chaoschunkblock",
+    "south": "waa:blocks/chaoschunkblock",
+    "west": "waa:blocks/chaoschunkblock",
+    "particle": "waa:blocks/chaoschunkblock"
+  }
+}

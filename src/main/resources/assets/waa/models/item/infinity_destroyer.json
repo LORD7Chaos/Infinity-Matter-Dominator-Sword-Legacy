@@ -1,0 +1,7 @@
+{
+  "parent": "waa:custom/infinity_destroyer",
+  "textures": {
+    "0": "waa:blocks/finmsb",
+    "particle": "waa:items/finm"
+  }
+}

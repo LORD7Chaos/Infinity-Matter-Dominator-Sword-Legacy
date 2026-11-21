@@ -1,0 +1,8 @@
+{
+  "parent": "waa:custom/gtwofe",
+  "textures": {
+    "0": "waa:blocks/layers/texturewww",
+    "1": "waa:blocks/layers/zzzzzz",
+    "particle": "waa:items/null"
+  }
+}

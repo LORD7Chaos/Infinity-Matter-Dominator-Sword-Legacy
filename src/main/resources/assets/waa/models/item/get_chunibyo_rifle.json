@@ -1,0 +1,8 @@
+{
+  "parent": "waa:custom/chunibyo_rifle",
+  "textures": {
+    "1": "waa:blocks/layers/texturewww",
+    "2": "waa:blocks/layers/aaaaaa",
+    "particle": "waa:items/null"
+  }
+}

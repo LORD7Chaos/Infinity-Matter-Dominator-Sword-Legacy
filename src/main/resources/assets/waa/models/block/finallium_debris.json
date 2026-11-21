@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "side": "waa:blocks/finallium_debris_side",
+    "top": "waa:blocks/finallium_debris_top",
+    "bottom": "waa:blocks/finallium_debris_top"
+  }
+}

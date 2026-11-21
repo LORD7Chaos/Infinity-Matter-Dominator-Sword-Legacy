@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:divinecrystalblock"
+    },
+    "1": {
+      "item": "waa:divinecrystalblock"
+    },
+    "2": {
+      "item": "waa:divinecrystalblock"
+    },
+    "3": {
+      "item": "waa:divinecrystalblock"
+    },
+    "4": {
+      "item": "waa:divinecrystalblock"
+    },
+    "5": {
+      "item": "waa:divinecrystalblock"
+    },
+    "6": {
+      "item": "waa:divinecrystalblock"
+    },
+    "7": {
+      "item": "waa:divinecrystalblock"
+    },
+    "8": {
+      "item": "waa:divinecrystalblock"
+    }
+  },
+  "result": {
+    "item": "waa:evolved_divine_crystal",
+    "count": 1
+  }
+}

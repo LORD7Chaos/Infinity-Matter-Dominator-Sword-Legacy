@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:infinitymatter"
+    },
+    "1": {
+      "item": "waa:ultimatecrystalblock"
+    },
+    "2": {
+      "item": "waa:chaoschunkblock"
+    },
+    "3": {
+      "item": "waa:infinitymatter"
+    },
+    "4": {
+      "item": "waa:infinitymatter"
+    },
+    "5": {
+      "item": "waa:ultimatecrystalblock"
+    },
+    "6": {
+      "item": "waa:extendedchaoticsword"
+    },
+    "7": {
+      "item": "waa:infinitymatter"
+    },
+    "8": {
+      "item": "waa:infinitymatter"
+    }
+  },
+  "result": {
+    "item": "waa:right_click_me",
+    "count": 1
+  }
+}

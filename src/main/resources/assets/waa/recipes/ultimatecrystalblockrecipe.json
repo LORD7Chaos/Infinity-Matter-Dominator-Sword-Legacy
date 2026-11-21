@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:ultimatecrystal"
+    },
+    "1": {
+      "item": "waa:ultimatecrystal"
+    },
+    "2": {
+      "item": "waa:ultimatecrystal"
+    },
+    "3": {
+      "item": "waa:ultimatecrystal"
+    },
+    "4": {
+      "item": "waa:ultimatecrystal"
+    },
+    "5": {
+      "item": "waa:ultimatecrystal"
+    },
+    "6": {
+      "item": "waa:ultimatecrystal"
+    },
+    "7": {
+      "item": "waa:ultimatecrystal"
+    },
+    "8": {
+      "item": "waa:ultimatecrystal"
+    }
+  },
+  "result": {
+    "item": "waa:ultimatecrystalblock",
+    "count": 1
+  }
+}

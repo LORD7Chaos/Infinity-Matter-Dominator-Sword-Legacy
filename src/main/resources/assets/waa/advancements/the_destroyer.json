@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "waa:the_obliterator"
+    },
+    "title": {
+      "translate": "advancements.the_destroyer.title"
+    },
+    "description": {
+      "translate": "advancements.the_destroyer.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_destroyer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "waa:the_obliterator",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 64000
+  },
+  "parent": "waa:the_obliterato_a"
+}

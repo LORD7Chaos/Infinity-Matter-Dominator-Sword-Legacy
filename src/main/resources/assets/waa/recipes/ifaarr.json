@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:annihilator"
+    },
+    "1": {
+      "item": "waa:infinity_final_antimatter"
+    },
+    "2": {
+      "item": "waa:annihilator"
+    },
+    "3": {
+      "item": "waa:infinity_final_antimatter"
+    },
+    "4": {
+      "item": "waa:annihilator"
+    },
+    "5": {
+      "item": "waa:infinity_final_antimatter"
+    },
+    "6": {
+      "item": "waa:annihilator"
+    },
+    "7": {
+      "item": "waa:infinity_final_antimatter"
+    },
+    "8": {
+      "item": "waa:annihilator"
+    }
+  },
+  "result": {
+    "item": "waa:get_infinity_final_antimatter_annihilator_rifle",
+    "count": 1
+  }
+}

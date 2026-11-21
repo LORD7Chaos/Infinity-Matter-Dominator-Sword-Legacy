@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:the_weapon_of_end_infinity_god"
+    },
+    "1": {
+      "item": "waa:the_weapon_of_end_infinity_god"
+    },
+    "2": {
+      "item": "waa:the_weapon_of_end_infinity_god"
+    },
+    "3": {
+      "item": "waa:the_weapon_of_end_infinity_god"
+    },
+    "4": {
+      "item": "waa:infinity_final_antimatter"
+    },
+    "5": {
+      "item": "waa:the_weapon_of_end_infinity_god"
+    },
+    "6": {
+      "item": "waa:the_weapon_of_end_infinity_god"
+    },
+    "7": {
+      "item": "waa:the_weapon_of_end_infinity_god"
+    },
+    "8": {
+      "item": "waa:the_weapon_of_end_infinity_god"
+    }
+  },
+  "result": {
+    "item": "waa:evolved_infinity_final_ultimate_destruction_divine_antiatter",
+    "count": 1
+  }
+}

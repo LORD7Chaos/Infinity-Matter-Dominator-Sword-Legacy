@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:infinitymatter"
+    },
+    "1": {
+      "item": "waa:infinitymatter"
+    },
+    "2": {
+      "item": "waa:infinitymatter"
+    },
+    "3": {
+      "item": "waa:infinitymatter"
+    },
+    "4": {
+      "item": "waa:infinitymatter"
+    },
+    "5": {
+      "item": "waa:infinitymatter"
+    },
+    "6": {
+      "item": "waa:infinitymatter"
+    },
+    "7": {
+      "item": "waa:infinitymatter"
+    },
+    "8": {
+      "item": "waa:infinitymatter"
+    }
+  },
+  "result": {
+    "item": "waa:infinitymatterblock",
+    "count": 1
+  }
+}

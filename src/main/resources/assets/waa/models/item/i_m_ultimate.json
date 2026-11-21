@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "waa:items/infinity_matter_ultimate_sword"
+  }
+}

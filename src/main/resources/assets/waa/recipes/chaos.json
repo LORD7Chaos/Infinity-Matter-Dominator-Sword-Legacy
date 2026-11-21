@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:infinitycrystalblock"
+    },
+    "1": {
+      "item": "waa:finallium_block"
+    },
+    "2": {
+      "item": "waa:infinitycrystalblock"
+    },
+    "3": {
+      "item": "waa:infinitycrystalblock"
+    },
+    "4": {
+      "item": "waa:finallium_block"
+    },
+    "5": {
+      "item": "waa:infinitycrystalblock"
+    },
+    "6": {
+      "item": "waa:infinitycrystalblock"
+    },
+    "7": {
+      "item": "waa:finallium_block"
+    },
+    "8": {
+      "item": "waa:infinitycrystalblock"
+    }
+  },
+  "result": {
+    "item": "waa:chaos_ingot",
+    "count": 1
+  }
+}

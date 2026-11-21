@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:chaos_ingot"
+    },
+    "1": {
+      "item": "waa:chaos_ingot"
+    },
+    "2": {
+      "item": "waa:chaos_ingot"
+    },
+    "3": {
+      "item": "waa:chaos_ingot"
+    },
+    "4": {
+      "item": "waa:chaos_ingot"
+    },
+    "5": {
+      "item": "waa:chaos_ingot"
+    },
+    "6": {
+      "item": "waa:chaos_ingot"
+    },
+    "7": {
+      "item": "waa:chaos_ingot"
+    },
+    "8": {
+      "item": "waa:chaos_ingot"
+    }
+  },
+  "result": {
+    "item": "waa:chaos_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:infinity_final_matter_singularity"
+    },
+    "1": {
+      "item": "waa:infinity_final_matter_singularity"
+    },
+    "2": {
+      "item": "waa:infinity_final_matter_singularity"
+    },
+    "3": {
+      "item": "waa:infinity_final_matter_singularity"
+    },
+    "4": {
+      "item": "waa:infinity_final_matter_singularity"
+    },
+    "5": {
+      "item": "waa:infinity_final_matter_singularity"
+    },
+    "6": {
+      "item": "waa:infinity_final_matter_singularity"
+    },
+    "7": {
+      "item": "waa:infinity_final_matter_singularity"
+    },
+    "8": {
+      "item": "waa:infinity_final_matter_singularity"
+    }
+  },
+  "result": {
+    "item": "waa:infinity_final_matter_singularity_chunk",
+    "count": 1
+  }
+}

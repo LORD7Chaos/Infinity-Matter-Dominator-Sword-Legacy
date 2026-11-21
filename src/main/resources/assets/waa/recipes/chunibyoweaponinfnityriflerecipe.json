@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:deleted_mod_element"
+    },
+    "1": {
+      "item": "waa:chunibyo_rifle"
+    },
+    "2": {
+      "item": "waa:deleted_mod_element"
+    },
+    "3": {
+      "item": "waa:chunibyo_rifle"
+    },
+    "4": {
+      "item": "waa:chunibyo_rifle"
+    },
+    "5": {
+      "item": "waa:chunibyo_rifle"
+    },
+    "6": {
+      "item": "waa:deleted_mod_element"
+    },
+    "7": {
+      "item": "waa:chunibyo_rifle"
+    },
+    "8": {
+      "item": "waa:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "waa:deleted_mod_element",
+    "count": 1
+  }
+}

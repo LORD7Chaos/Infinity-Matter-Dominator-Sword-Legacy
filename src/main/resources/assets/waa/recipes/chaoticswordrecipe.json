@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:finallium_block"
+    },
+    "1": {
+      "item": "waa:chaos_ingot"
+    },
+    "2": {
+      "item": "waa:chaoschunk"
+    },
+    "3": {
+      "item": "waa:chaos_block"
+    },
+    "4": {
+      "item": "waa:chaoschunk"
+    },
+    "5": {
+      "item": "waa:chaos_ingot"
+    },
+    "6": {
+      "item": "waa:finallium_sword"
+    },
+    "7": {
+      "item": "waa:chaos_block"
+    },
+    "8": {
+      "item": "waa:finallium_block"
+    }
+  },
+  "result": {
+    "item": "waa:chaoticsword",
+    "count": 1
+  }
+}

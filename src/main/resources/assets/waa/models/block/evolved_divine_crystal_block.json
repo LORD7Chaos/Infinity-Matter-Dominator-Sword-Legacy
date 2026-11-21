@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "waa:blocks/evolveddivinecrystalblock",
+    "up": "waa:blocks/evolveddivinecrystalblock",
+    "north": "waa:blocks/evolveddivinecrystalblock",
+    "east": "waa:blocks/evolveddivinecrystalblock",
+    "south": "waa:blocks/evolveddivinecrystalblock",
+    "west": "waa:blocks/evolveddivinecrystalblock",
+    "particle": "waa:blocks/evolveddivinecrystalblock"
+  }
+}

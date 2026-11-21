@@ -1,0 +1,7 @@
+{
+  "parent": "waa:custom/unstable_huge_final_matter_singularity_chunk",
+  "textures": {
+    "0": "waa:blocks/finmsb",
+    "particle": "waa:items/finms"
+  }
+}

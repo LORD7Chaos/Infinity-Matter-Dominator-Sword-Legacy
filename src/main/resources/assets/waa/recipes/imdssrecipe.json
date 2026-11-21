@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:infinitymatter"
+    },
+    "1": {
+      "item": "waa:crystal_hoe"
+    },
+    "2": {
+      "item": "waa:infinitymatter"
+    },
+    "3": {
+      "item": "waa:crystal_pickaxe"
+    },
+    "4": {
+      "item": "waa:extendedchaoticsword"
+    },
+    "5": {
+      "item": "waa:crystal_axe"
+    },
+    "6": {
+      "item": "waa:infinitymatter"
+    },
+    "7": {
+      "item": "waa:crystal_shovel"
+    },
+    "8": {
+      "item": "waa:infinitymatter"
+    }
+  },
+  "result": {
+    "item": "waa:i_m_destruction",
+    "count": 1
+  }
+}

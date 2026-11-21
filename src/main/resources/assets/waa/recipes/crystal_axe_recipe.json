@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:infinity_crystal"
+    },
+    "1": {
+      "item": "waa:infinity_crystal"
+    },
+    "2": {
+      "item": "waa:infinity_crystal"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "waa:crystal_axe",
+    "count": 1
+  }
+}

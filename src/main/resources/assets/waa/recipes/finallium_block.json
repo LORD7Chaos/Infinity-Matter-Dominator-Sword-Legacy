@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "waa:finallium_ingot"
+    }
+  },
+  "result": {
+    "item": "waa:finallium_block"
+  }
+}

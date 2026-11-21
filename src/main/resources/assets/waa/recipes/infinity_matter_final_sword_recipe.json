@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:final_matter"
+    },
+    "1": {
+      "item": "waa:i_m_divine_evolved"
+    },
+    "2": {
+      "item": "waa:final_matter"
+    },
+    "3": {
+      "item": "waa:i_m_destruction"
+    },
+    "4": {
+      "item": "waa:i_m_divine"
+    },
+    "5": {
+      "item": "waa:i_m_ultimate"
+    },
+    "6": {
+      "item": "waa:final_matter"
+    },
+    "7": {
+      "item": "waa:i_m_dominator"
+    },
+    "8": {
+      "item": "waa:final_matter"
+    }
+  },
+  "result": {
+    "item": "waa:get_infinity_matter_final_sword",
+    "count": 1
+  }
+}

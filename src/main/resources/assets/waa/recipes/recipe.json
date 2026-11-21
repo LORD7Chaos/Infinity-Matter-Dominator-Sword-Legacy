@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:chunibyo_weapon_infinity"
+    },
+    "1": {
+      "item": "waa:chunibyo_weapon"
+    },
+    "2": {
+      "item": "waa:chunibyo_weapon_infinity"
+    },
+    "3": {
+      "item": "waa:chunibyo_weapon"
+    },
+    "4": {
+      "item": "waa:chunibyo_weapon_infinity"
+    },
+    "5": {
+      "item": "waa:chunibyo_weapon"
+    },
+    "6": {
+      "item": "waa:chunibyo_weapon_infinity"
+    },
+    "7": {
+      "item": "waa:chunibyo_weapon"
+    },
+    "8": {
+      "item": "waa:chunibyo_weapon_infinity"
+    }
+  },
+  "result": {
+    "item": "waa:get_chunibyo_rifle",
+    "count": 1
+  }
+}

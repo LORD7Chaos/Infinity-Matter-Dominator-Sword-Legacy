@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:infinitymatterdebris"
+    },
+    "1": {
+      "item": "waa:chaoschunkblock"
+    },
+    "2": {
+      "item": "waa:infinitymatterdebris"
+    },
+    "3": {
+      "item": "waa:chaoschunkblock"
+    },
+    "4": {
+      "item": "waa:infinitymatterdebris"
+    },
+    "5": {
+      "item": "waa:chaoschunkblock"
+    },
+    "6": {
+      "item": "waa:infinitymatterdebris"
+    },
+    "7": {
+      "item": "waa:chaoschunkblock"
+    },
+    "8": {
+      "item": "waa:infinitymatterdebris"
+    }
+  },
+  "result": {
+    "item": "waa:infinitymatter",
+    "count": 1
+  }
+}

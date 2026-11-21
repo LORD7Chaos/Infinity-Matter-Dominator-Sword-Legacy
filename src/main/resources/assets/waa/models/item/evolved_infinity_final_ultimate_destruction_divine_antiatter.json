@@ -1,0 +1,8 @@
+{
+  "parent": "waa:custom/evolved_infinity_final_ultimate_destruction_divine_antiatter",
+  "textures": {
+    "0": "waa:blocks/layers/zzzzzz",
+    "1": "waa:blocks/layers/rainbow",
+    "particle": "waa:items/layers/rainbow"
+  }
+}

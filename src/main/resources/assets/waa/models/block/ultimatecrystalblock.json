@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "waa:blocks/ultimatecrystalblock",
+    "up": "waa:blocks/ultimatecrystalblock",
+    "north": "waa:blocks/ultimatecrystalblock",
+    "east": "waa:blocks/ultimatecrystalblock",
+    "south": "waa:blocks/ultimatecrystalblock",
+    "west": "waa:blocks/ultimatecrystalblock",
+    "particle": "waa:blocks/ultimatecrystalblock"
+  }
+}

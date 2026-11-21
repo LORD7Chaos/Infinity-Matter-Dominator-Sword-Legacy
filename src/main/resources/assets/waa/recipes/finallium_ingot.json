@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "waa:finallium_scrap"
+    },
+    {
+      "item": "waa:finallium_scrap"
+    },
+    {
+      "item": "waa:finallium_scrap"
+    },
+    {
+      "item": "waa:finallium_scrap"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "waa:finallium_ingot"
+  }
+}

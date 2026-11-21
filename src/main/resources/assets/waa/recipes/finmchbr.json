@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:final_matter_chunk"
+    },
+    "1": {
+      "item": "waa:final_matter_chunk"
+    },
+    "2": {
+      "item": "waa:final_matter_chunk"
+    },
+    "3": {
+      "item": "waa:final_matter_chunk"
+    },
+    "4": {
+      "item": "waa:final_matter_chunk"
+    },
+    "5": {
+      "item": "waa:final_matter_chunk"
+    },
+    "6": {
+      "item": "waa:final_matter_chunk"
+    },
+    "7": {
+      "item": "waa:final_matter_chunk"
+    },
+    "8": {
+      "item": "waa:final_matter_chunk"
+    }
+  },
+  "result": {
+    "item": "waa:final_matter_chunk_block",
+    "count": 1
+  }
+}

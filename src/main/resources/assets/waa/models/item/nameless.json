@@ -1,0 +1,8 @@
+{
+  "parent": "waa:custom/nameless",
+  "textures": {
+    "3": "waa:blocks/finmsb",
+    "5": "waa:blocks/layers/a",
+    "particle": "waa:items/lastsword"
+  }
+}

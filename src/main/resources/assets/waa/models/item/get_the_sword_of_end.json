@@ -1,0 +1,15 @@
+{
+  "parent": "waa:custom/the_sword_of_end",
+  "textures": {
+    "11": "waa:blocks/layers/zzzzzz",
+    "3": "waa:blocks/layers/texturewww",
+    "4": "waa:blocks/layers/aaaaaa",
+    "5": "waa:blocks/layers/bbbbb",
+    "6": "waa:blocks/layers/ccccc",
+    "7": "waa:blocks/layers/ddddd",
+    "8": "waa:blocks/layers/eeeee",
+    "9": "waa:blocks/layers/fffff",
+    "10": "waa:blocks/layers/ggggg",
+    "particle": "waa:items/null"
+  }
+}

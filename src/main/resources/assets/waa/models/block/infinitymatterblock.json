@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "waa:blocks/infinitymatterblock",
+    "up": "waa:blocks/infinitymatterblock",
+    "north": "waa:blocks/infinitymatterblock",
+    "east": "waa:blocks/infinitymatterblock",
+    "south": "waa:blocks/infinitymatterblock",
+    "west": "waa:blocks/infinitymatterblock",
+    "particle": "waa:blocks/infinitymatterblock"
+  }
+}

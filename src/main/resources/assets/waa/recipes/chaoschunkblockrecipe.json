@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:chaoschunk"
+    },
+    "1": {
+      "item": "waa:chaoschunk"
+    },
+    "2": {
+      "item": "waa:chaoschunk"
+    },
+    "3": {
+      "item": "waa:chaoschunk"
+    },
+    "4": {
+      "item": "waa:chaoschunk"
+    },
+    "5": {
+      "item": "waa:chaoschunk"
+    },
+    "6": {
+      "item": "waa:chaoschunk"
+    },
+    "7": {
+      "item": "waa:chaoschunk"
+    },
+    "8": {
+      "item": "waa:chaoschunk"
+    }
+  },
+  "result": {
+    "item": "waa:chaoschunkblock",
+    "count": 1
+  }
+}

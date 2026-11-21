@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "waa:extendedchaoticsword"
+    },
+    "2": {
+      "item": "waa:infinitymatter"
+    },
+    "3": {
+      "item": "waa:infinitymatter"
+    },
+    "4": {
+      "item": "waa:infinitymatter"
+    },
+    "5": {
+      "item": "waa:extendedchaoticsword"
+    },
+    "6": {
+      "item": "waa:extendedchaoticsword"
+    },
+    "7": {
+      "item": "waa:infinitymatter"
+    }
+  },
+  "result": {
+    "item": "waa:i_m_ultimate",
+    "count": 1
+  }
+}

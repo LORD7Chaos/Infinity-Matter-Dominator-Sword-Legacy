@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:the_obliterator"
+    },
+    "1": {
+      "item": "waa:nameless"
+    },
+    "2": {
+      "item": "waa:the_obliterator"
+    },
+    "3": {
+      "item": "waa:nameless"
+    },
+    "4": {
+      "item": "waa:chunibyo_weapon"
+    },
+    "5": {
+      "item": "waa:nameless"
+    },
+    "6": {
+      "item": "waa:the_obliterator"
+    },
+    "7": {
+      "item": "waa:nameless"
+    },
+    "8": {
+      "item": "waa:the_obliterator"
+    }
+  },
+  "result": {
+    "item": "waa:gcwi",
+    "count": 1
+  }
+}

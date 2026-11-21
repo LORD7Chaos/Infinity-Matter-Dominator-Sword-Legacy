@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:i_m_divine"
+    },
+    "1": {
+      "item": "waa:nameless"
+    },
+    "2": {
+      "item": "waa:i_m_divine_evolved"
+    },
+    "3": {
+      "item": "waa:i_m_dominator"
+    },
+    "4": {
+      "item": "waa:huge_final_matter_singularity_chunk"
+    },
+    "5": {
+      "item": "waa:i_m_final"
+    },
+    "6": {
+      "item": "waa:i_m_destruction"
+    },
+    "7": {
+      "item": "waa:the_obliterator"
+    },
+    "8": {
+      "item": "waa:i_m_ultimate"
+    }
+  },
+  "result": {
+    "item": "waa:get_chunibyo_weapon",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "waa:blocks/finmchb",
+    "up": "waa:blocks/finmchb",
+    "north": "waa:blocks/finmchb",
+    "east": "waa:blocks/finmchb",
+    "south": "waa:blocks/finmchb",
+    "west": "waa:blocks/finmchb",
+    "particle": "waa:blocks/finmchb"
+  }
+}

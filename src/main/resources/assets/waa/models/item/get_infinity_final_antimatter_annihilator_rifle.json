@@ -1,0 +1,8 @@
+{
+  "parent": "waa:custom/infinity_final_antimatter_annihilator_rifle",
+  "textures": {
+    "3": "waa:blocks/layers/texturewww",
+    "4": "waa:blocks/layers/aaaaaa",
+    "particle": "waa:items/null"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "waa:dominator"
+    },
+    "1": {
+      "item": "waa:dominator"
+    },
+    "2": {
+      "item": "waa:dominator"
+    },
+    "3": {
+      "item": "waa:dominator"
+    },
+    "4": {
+      "item": "waa:dominator"
+    },
+    "5": {
+      "item": "waa:dominator"
+    },
+    "6": {
+      "item": "waa:dominator"
+    },
+    "7": {
+      "item": "waa:dominator"
+    },
+    "8": {
+      "item": "waa:dominator"
+    }
+  },
+  "result": {
+    "item": "waa:geifudaedsi",
+    "count": 1
+  }
+}
