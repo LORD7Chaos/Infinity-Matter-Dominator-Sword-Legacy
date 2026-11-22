@@ -4,6 +4,7 @@ import com.lord.waa.client.ClientSetup;
 import com.lord.waa.command.UltraKillCommand;
 import com.lord.waa.compat.MACompat;
 import com.lord.waa.compat.ProjectECompat;
+import com.lord.waa.compat.BigVoucherEmcCompat;
 import com.lord.waa.config.WaaConfig;
 import com.lord.waa.entity.EntityWaaArrow;
 import com.lord.waa.network.Net;
@@ -46,6 +47,7 @@ public class WaaMod {
  @Mod.EventHandler
  public void postInit(FMLPostInitializationEvent event) {
   ProjectECompat.registerConversions();
+  BigVoucherEmcCompat.install();
  }
 
  @Mod.EventHandler
