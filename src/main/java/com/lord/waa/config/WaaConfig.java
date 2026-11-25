@@ -18,6 +18,13 @@ public final class WaaConfig {
  public static boolean explosionDrops = false;
  public static int grenadeFlightInterval = 5;
 
+ public static boolean crystalShovelEnabled = true;
+ public static int crystalShovelBlocksPerTick = 8;
+ public static boolean crystalPickVeinEnabled = true;
+ public static int crystalPickMaxBlocks = 64;
+ public static int crystalPickBlocksPerTick = 8;
+ public static int crystalPickMaxDistance = 12;
+
  public static boolean debrisEnabled = true;
  public static int debrisVeinsPerChunk = 2;
  public static int debrisVeinSize = 3;
@@ -38,6 +45,12 @@ public final class WaaConfig {
    explosionMaxJobs = c.getInt("explosionMaxJobs", "explosions", 16, 1, 200, "Max simultaneous weapon explosions per dimension; extra ones are ignored.");
    explosionDrops = c.getBoolean("explosionDrops", "explosions", false, "Blocks destroyed by weapon explosions drop items (many item entities = lag).");
    grenadeFlightInterval = c.getInt("grenadeFlightInterval", "explosions", 5, 1, 100, "Flying grenade explodes every N ticks (1 = original).");
+   crystalShovelEnabled = c.getBoolean("enabled", "crystal_shovel_excavation", true, "Excavate a 3x3, 5x5 or 9x9 area with the Crystal Shovel.");
+   crystalShovelBlocksPerTick = c.getInt("blocksPerTick", "crystal_shovel_excavation", 8, 1, 81, "Extra blocks harvested per player per tick.");
+   crystalPickVeinEnabled = c.getBoolean("enabled", "crystal_pick_vein", true, "Break connected ore veins with the Crystal Pickaxe.");
+   crystalPickMaxBlocks = c.getInt("maxBlocks", "crystal_pick_vein", 64, 1, 1024, "Maximum extra ore blocks per vein.");
+   crystalPickBlocksPerTick = c.getInt("blocksPerTick", "crystal_pick_vein", 8, 1, 64, "Extra blocks harvested per player per tick.");
+   crystalPickMaxDistance = c.getInt("maxDistance", "crystal_pick_vein", 12, 1, 32, "Maximum reach of a vein from the first ore block (in each axis).");
    debrisEnabled = c.getBoolean("enabled", "finallium_debris_worldgen", true, "Generate Finallium Debris in the Nether.");
    debrisVeinsPerChunk = c.getInt("veinsPerChunk", "finallium_debris_worldgen", 2, 0, 64, "Spawn attempts per chunk.");
    debrisVeinSize = c.getInt("veinSize", "finallium_debris_worldgen", 3, 1, 64, "Max blocks in one vein.");

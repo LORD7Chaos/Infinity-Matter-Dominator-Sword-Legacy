@@ -6,6 +6,7 @@
     "678"
   ],
   "key": {
+
     "0": {
       "item": "waa:chaoscrystal"
     },
@@ -35,7 +36,7 @@
     }
   },
   "result": {
-    "item": "waa:i_m_divine",
+    "item": "waa:getinfinitymatterdivinesword",
     "count": 1
   }
 }

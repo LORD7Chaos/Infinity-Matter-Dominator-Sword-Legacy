@@ -2,6 +2,7 @@ package com.lord.waa.network;
 
 import com.lord.waa.Reference;
 import com.lord.waa.logic.KeyActions;
+import com.lord.waa.logic.CrystalShovelExcavation;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
@@ -18,6 +19,7 @@ public final class Net {
  public static void init() {
   CHANNEL = NetworkRegistry.INSTANCE.newSimpleChannel(Reference.MOD_ID);
   CHANNEL.registerMessage(Handler.class, KeyMessage.class, 0, Side.SERVER);
+  CHANNEL.registerMessage(ShovelModeHandler.class, ShovelModeMessage.class, 1, Side.SERVER);
  }
 
  public static class KeyMessage implements IMessage {
@@ -34,6 +36,24 @@ public final class Net {
    final EntityPlayerMP player = ctx.getServerHandler().player;
    player.getServerWorld().addScheduledTask(new Runnable() {
     @Override public void run() { KeyActions.perform(player, msg.key); }
+   });
+   return null;
+  }
+ }
+
+ public static class ShovelModeMessage implements IMessage {
+  public int direction;
+  public ShovelModeMessage() {}
+  public ShovelModeMessage(int direction) { this.direction = direction; }
+  @Override public void fromBytes(ByteBuf buf) { direction = buf.readInt(); }
+  @Override public void toBytes(ByteBuf buf) { buf.writeInt(direction); }
+ }
+
+ public static class ShovelModeHandler implements IMessageHandler<ShovelModeMessage, IMessage> {
+  @Override public IMessage onMessage(final ShovelModeMessage msg, MessageContext ctx) {
+   final EntityPlayerMP player = ctx.getServerHandler().player;
+   player.getServerWorld().addScheduledTask(new Runnable() {
+    @Override public void run() { CrystalShovelExcavation.changeSize(player, msg.direction); }
    });
    return null;
   }

@@ -4,6 +4,8 @@ import com.lord.waa.Reference;
 import com.lord.waa.entity.EntityWaaArrow;
 import com.lord.waa.logic.KeyActions;
 import com.lord.waa.network.Net;
+import net.minecraft.client.Minecraft;
+import net.minecraftforge.client.event.MouseEvent;
 import com.lord.waa.registry.ModBlocks;
 import com.lord.waa.registry.ModItems;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -50,6 +52,16 @@ public final class ClientSetup {
    KEYS[i] = new KeyBinding("key." + Reference.MOD_ID + "." + NAMES[i], CODES[i], "key.categories.waa");
    ClientRegistry.registerKeyBinding(KEYS[i]);
   }
+ }
+
+ @SubscribeEvent
+ public static void onMouseWheel(MouseEvent e) {
+  if (e.getDwheel() == 0 || Minecraft.getMinecraft().player == null ||
+      !Minecraft.getMinecraft().player.isSneaking()) return;
+  if (Minecraft.getMinecraft().player.getHeldItemMainhand().getItem() != ModItems.get("crystal_shovel")) return;
+  if (Net.CHANNEL == null) return;
+  e.setCanceled(true);
+  Net.CHANNEL.sendToServer(new Net.ShovelModeMessage(e.getDwheel() > 0 ? 1 : -1));
  }
 
  @SubscribeEvent

@@ -115,7 +115,7 @@ public final class Boom {
     if (st.getBlockHardness(e.world, mp) < 0.0F) continue;
     if (b.getExplosionResistance(null) > j.power * 10.0F) continue;
     if (drops && RAND.nextFloat() < 1.0F / j.power) b.dropBlockAsItemWithChance(e.world, mp.toImmutable(), st, 1.0F, 0);
-    e.world.setBlockState(mp.toImmutable(), Blocks.AIR.getDefaultState(), 2 | 16);
+    e.world.setBlockState(mp.toImmutable(), Blocks.AIR.getDefaultState(), 3);
     breakBudget--;
    }
    if (j.next >= j.limit) it.remove();
