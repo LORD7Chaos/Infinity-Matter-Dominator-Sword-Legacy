@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "normal": {
+      "model": "waa:triple_compressed_chaos_block"
+    },
+    "inventory": {
+      "model": "waa:triple_compressed_chaos_block"
+    }
+  }
+}

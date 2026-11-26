@@ -25,7 +25,6 @@ import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.oredict.OreDictionary;
 
-/** Automatically harvests connected ores with the Crystal Pickaxe on the server. */
 @Mod.EventBusSubscriber(modid = "waa")
 public final class CrystalOreExcavation {
  private static final Map<UUID, Pending> PENDING = new HashMap<UUID, Pending>();
@@ -118,7 +117,6 @@ public final class CrystalOreExcavation {
   try {
    int budget = WaaConfig.crystalPickBlocksPerTick;
    int searched = 0;
-   // Bound scanning as well as breaking to avoid lag from enormous ore clusters.
    while (budget > 0 && searched++ < budget * 24 && !job.queue.isEmpty() && job.mined < WaaConfig.crystalPickMaxBlocks) {
     BlockPos pos = job.queue.removeFirst();
     if (!job.seen.add(pos)) continue;
@@ -134,7 +132,6 @@ public final class CrystalOreExcavation {
     if (held.isItemStackDamageable() && held.getItemDamage() >= held.getMaxDamage() - 1) {
      JOBS.remove(id); return;
     }
-    // Vanilla server harvesting handles Forge break protection, Silk Touch, Fortune and tool damage.
     if (player.interactionManager.tryHarvestBlock(pos)) {
      job.mined++;
      budget--;

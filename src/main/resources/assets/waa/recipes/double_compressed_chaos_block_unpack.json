@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "waa:double_compressed_chaos_block"
+    }
+  ],
+  "result": {
+    "item": "waa:compressed_chaos_block",
+    "count": 9
+  }
+}

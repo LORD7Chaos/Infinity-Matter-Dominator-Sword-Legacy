@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CDC",
+    "DSD",
+    "CDC"
+  ],
+  "key": {
+    "C": {
+      "item": "waa:chaotic_ingot"
+    },
+    "S": {
+      "item": "waa:i_m_dominator"
+    },
+    "D": {
+      "item": "waa:chaotic_ingot_block"
+    }
+
+
+    
+  },
+  "result": {
+    "item": "waa:charged_i_m_dominator",
+    "count": 1
+  }
+}

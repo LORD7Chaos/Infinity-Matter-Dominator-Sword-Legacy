@@ -25,7 +25,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-/** Server-authoritative area mining for the Waa Crystal Shovel. */
 @Mod.EventBusSubscriber(modid = "waa")
 public final class CrystalShovelExcavation {
  private static final Map<UUID, Integer> SIZES = new HashMap<UUID, Integer>();
@@ -74,7 +73,6 @@ public final class CrystalShovelExcavation {
   return block == b.getBlock() && block.getMetaFromState(a) == block.getMetaFromState(b);
  }
 
- /** Invoked on the main server thread by the scroll packet handler. */
  public static void changeSize(EntityPlayerMP player, int direction) {
   if (!WaaConfig.crystalShovelEnabled || direction == 0 ||
       player.getHeldItemMainhand().getItem() != ModItems.get("crystal_shovel") || !player.isSneaking()) return;
@@ -131,7 +129,6 @@ public final class CrystalShovelExcavation {
     if (held.isItemStackDamageable() && held.getItemDamage() >= held.getMaxDamage() - 1) {
      JOBS.remove(id); return;
     }
-    // Uses vanilla/Forge harvesting for protection, drops, enchantments and durability.
     player.interactionManager.tryHarvestBlock(pos);
     if (held.isEmpty() || held.getItem() != ModItems.get("crystal_shovel")) {
      JOBS.remove(id); return;

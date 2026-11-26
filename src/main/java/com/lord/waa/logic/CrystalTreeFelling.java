@@ -24,7 +24,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.oredict.OreDictionary;
 
-/** Server-side connected tree felling for the Crystal Axe. */
 @Mod.EventBusSubscriber(modid = "waa")
 public final class CrystalTreeFelling {
  private static final int MAX_LOGS = 256;
@@ -68,7 +67,7 @@ public final class CrystalTreeFelling {
   Pending pending = PENDING.remove(event.player.getUniqueID());
   if (pending == null || pending.world != event.player.world || !(event.player instanceof EntityPlayerMP)) return;
   EntityPlayerMP player = (EntityPlayerMP) event.player;
-  if (log(player.world.getBlockState(pending.origin))) return; // Original log was not actually removed.
+  if (log(player.world.getBlockState(pending.origin))) return;
   ItemStack held = player.getHeldItemMainhand();
   if (held.isEmpty() || held.getItem() != ModItems.get("crystal_axe")) return;
   PROCESSING.add(player.getUniqueID());
@@ -81,7 +80,6 @@ public final class CrystalTreeFelling {
   ArrayDeque<BlockPos> queue = new ArrayDeque<BlockPos>();
   Set<BlockPos> found = new HashSet<BlockPos>();
   List<BlockPos> logs = new ArrayList<BlockPos>();
-  // The player's original log is already air: start with its 26 neighbors.
   for (BlockPos p : BlockPos.getAllInBox(origin.add(-1,-1,-1), origin.add(1,1,1))) {
    if (log(world.getBlockState(p))) queue.add(p.toImmutable());
   }
@@ -97,7 +95,6 @@ public final class CrystalTreeFelling {
   }
   if (logs.isEmpty()) return;
   Set<BlockPos> leaves = new HashSet<BlockPos>();
-  // Only remove trees with a canopy, not isolated logs or ordinary wooden structures.
   for (BlockPos logPos : logs) {
    for (BlockPos pos : BlockPos.getAllInBox(logPos.add(-2,-2,-2), logPos.add(2,2,2))) {
     if (leaves.size() >= MAX_LEAVES) break;
@@ -107,7 +104,6 @@ public final class CrystalTreeFelling {
    }
   }
   if (leaves.isEmpty()) return;
-  // Bottom-up logs, then leaves. Each block drops normally and consumes durability.
   logs.sort((a,b) -> Integer.compare(a.getY(), b.getY()));
   for (BlockPos pos : logs) {
    if (!breakOne(player, axe, pos)) return;

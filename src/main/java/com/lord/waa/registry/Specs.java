@@ -24,6 +24,7 @@ public final class Specs {
  public static final ItemSpec[] ITEMS = {
   new ItemSpec("annihilator",-1,"COMMON",false,true,64,true,127998.0D,96.0D),
   new ItemSpec("chaos_ingot",3,"COMMON",false,false,64,false,0D,0D),
+  new ItemSpec("chaotic_ingot",3,"RARE",false,false,64,false,0D,0D),
   new ItemSpec("chaoschunk",3,"RARE",false,false,64,false,0D,0D),
   new ItemSpec("chaoscrystal",3,"RARE",false,false,64,false,0D,0D),
   new ItemSpec("chaoticsword",3,"COMMON",false,true,64,false,CHAOTIC_DAMAGE,CHAOTIC_SPEED),
@@ -100,11 +101,16 @@ public final class Specs {
   new ItemSpec("the_weapon_of_end",-1,"COMMON",true,true,64,true,127998.0D,96.0D),
   new ItemSpec("ultimatecrystal",3,"EPIC",false,false,64,false,0D,0D),
   new ItemSpec("unstable_huge_final_matter_singularity_chunk",3,"EPIC",true,true,64,false,0D,0D),
-  new ItemSpec("i_m_dominator",-1,"COMMON",false,true,64,true,127998.0D,96.0D)
+  new ItemSpec("i_m_dominator",-1,"COMMON",false,true,64,true,127998.0D,96.0D),
+  new ItemSpec("charged_i_m_dominator",-1,"COMMON",false,true,64,true,127998.0D,96.0D)
  };
 
  public static final BlockSpec[] BLOCKS = {
   new BlockSpec("chaos_block",true,true,5.0F,10.0F,0,2,true,false,false,false,false),
+  new BlockSpec("compressed_chaos_block",true,true,5.0F,10.0F,0,2,true,false,false,false,false),
+  new BlockSpec("double_compressed_chaos_block",true,true,5.0F,10.0F,0,2,true,false,false,false,false),
+  new BlockSpec("triple_compressed_chaos_block",true,true,5.0F,10.0F,0,2,true,false,false,false,false),
+  new BlockSpec("chaotic_ingot_block",true,true,5.0F,10.0F,0,2,true,false,false,false,false),
   new BlockSpec("chaoschunkblock",false,true,1.0F,9999.0F,0,-1,false,false,false,false,false),
   new BlockSpec("divinecrystalblock",true,true,64000.0F,2147483647.0F,0,-1,false,true,true,false,false),
   new BlockSpec("evolved_divine_crystal_block",true,true,64000.0F,2147483647.0F,15,-1,false,true,true,true,false),

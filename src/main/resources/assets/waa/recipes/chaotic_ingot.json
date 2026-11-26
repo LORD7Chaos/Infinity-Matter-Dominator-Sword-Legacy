@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "UIE",
+    "DCD",
+    "EIU"
+  ],
+  "key": {
+    "U": {
+      "item": "waa:ultimatecrystal"
+    },
+    "I": {
+      "item": "waa:infinity_crystal"
+    },
+    "E": {
+      "item": "waa:evolved_divine_crystal"
+    },
+    "D": {
+      "item": "waa:divinecrystal"
+    },
+    "C": {
+      "item": "waa:triple_compressed_chaos_block"
+    }
+  },
+  "result": {
+    "item": "waa:chaotic_ingot",
+    "count": 1
+  }
+}

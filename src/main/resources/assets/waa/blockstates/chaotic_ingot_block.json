@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "normal": {
+      "model": "waa:chaotic_ingot_block"
+    },
+    "inventory": {
+      "model": "waa:chaotic_ingot_block"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "waa:blocks/double_compressed_chaos_block",
+    "particle": "waa:blocks/double_compressed_chaos_block"
+  }
+}

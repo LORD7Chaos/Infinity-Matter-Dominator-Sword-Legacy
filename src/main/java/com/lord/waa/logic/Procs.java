@@ -131,6 +131,32 @@ public final class Procs {
   s.addEnchantment(Enchantments.SHARPNESS, 127); s.addEnchantment(Enchantments.SMITE, 127); s.addEnchantment(Enchantments.BANE_OF_ARTHROPODS, 127);
   s.addEnchantment(Enchantments.FIRE_ASPECT, 127); s.addEnchantment(Enchantments.LOOTING, 10); s.addEnchantment(Enchantments.SWEEPING, 3);
  }
+ public static void chargedDominatorEnchantments(ItemStack stack) {
+  if (stack.isEmpty()) return;
+  java.util.Map<Enchantment, Integer> enchants = EnchantmentHelper.getEnchantments(stack);
+  Enchantment[] required = {
+    Enchantments.SHARPNESS,
+    Enchantments.SMITE,
+    Enchantments.BANE_OF_ARTHROPODS,
+    Enchantments.LOOTING,
+    Enchantments.SWEEPING,
+    Enchantments.FORTUNE,
+    Enchantments.THORNS,
+    Enchantments.FIRE_ASPECT,
+    Enchantments.POWER
+  };
+  int[] levels = {256, 256, 256, 100, 256, 100, 100, 256, 256};
+  boolean changed = false;
+  for (int i = 0; i < required.length; i++) {
+   Integer current = enchants.get(required[i]);
+   if (current == null || current.intValue() != levels[i]) {
+    enchants.put(required[i], levels[i]);
+    changed = true;
+   }
+  }
+  if (changed) EnchantmentHelper.setEnchantments(enchants, stack);
+ }
+
  public static void destroyerOfMatterTick(EntityLivingBase e) {
   Fx.eff(e, MobEffects.HASTE, Fx.LONG, 255); Fx.eff(e, MobEffects.STRENGTH, Fx.LONG, 255);
  }

@@ -46,7 +46,6 @@ final class CrystalTools {
    if (!player.isSneaking()) return super.onItemUse(player, world, pos, hand, facing, hitX, hitY, hitZ);
    IBlockState state = world.getBlockState(pos);
    Block block = state.getBlock();
-   // Never turn grass into plants or use the vanilla bonemeal grass behavior.
    if (block == Blocks.GRASS || block == Blocks.GRASS_PATH || block == Blocks.DIRT) return EnumActionResult.PASS;
    if (block instanceof BlockNetherWart) {
     if (state.getValue(BlockNetherWart.AGE) >= 3) return EnumActionResult.PASS;
@@ -67,7 +66,6 @@ final class CrystalTools {
      IGrowable currentGrowable = (IGrowable) currentBlock;
      if (!currentGrowable.canGrow(world, pos, current, false)) break;
      currentGrowable.grow(world, world.rand, pos, current);
-     // Some modded blocks can grow without changing their state; prevent infinite attempts.
      if (world.getBlockState(pos) == current) break;
     }
     world.playEvent(2005, pos, 0);

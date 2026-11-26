@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "waa:items/charged_infinity_matter_dominator_sword"
+  }
+}

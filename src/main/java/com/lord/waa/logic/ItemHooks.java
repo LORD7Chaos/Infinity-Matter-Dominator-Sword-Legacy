@@ -29,7 +29,8 @@ public final class ItemHooks {
    case "i_m_final": Procs.finalRC(w, p); break;
    case "i_m_destruction":
    case "i_m_ultimate":
-   case "i_m_dominator": Procs.waaSwordRC(w, p); break;
+   case "i_m_dominator":
+   case "charged_i_m_dominator": Procs.waaSwordRC(w, p); break;
    case "i_m_divine": Procs.divineRC(w, p); break;
    case "nameless":
    case "the_obliterator": Procs.lastRC(w, p); break;
@@ -79,6 +80,11 @@ public final class ItemHooks {
    case "i_m_final": if (selected) Procs.handBasic(e); GodMode.FINAL.apply(e, stack); break;
    case "i_m_destruction": if (selected) Procs.waaSwordHandTick2(e); Procs.waaSwordHandTick(e); break;
    case "i_m_ultimate": if (selected) Procs.ultimateHandParticles(e); Procs.waaSwordHandTick(e); break;
+   case "charged_i_m_dominator":
+    Procs.chargedDominatorEnchantments(stack);
+    if (selected) Procs.waaSwordHandTick2(e);
+    Procs.waaSwordHandTick(e); Procs.waaSwordParticles(e);
+    break;
    case "i_m_dominator":
     if (selected) Procs.waaSwordHandTick2(e);
     Procs.waaSwordHandTick(e); Procs.waaSwordParticles(e);

@@ -25,7 +25,6 @@ public class FinalliumCrop extends BlockCrops {
    drops.add(new ItemStack(getSeed()));
    drops.add(new ItemStack(getCrop(), 1 + RANDOM.nextInt(2)));
    if (RANDOM.nextInt(8) == 0) drops.add(new ItemStack(getSeed()));
-   // Optional Mystical Agriculture fertilized essence drop.
    if (Loader.isModLoaded("mysticalagriculture") && RANDOM.nextInt(20) == 0) {
     Item fertilizer = ForgeRegistries.ITEMS.getValue(new ResourceLocation("mysticalagriculture", "fertilized_essence"));
     if (fertilizer != null) drops.add(new ItemStack(fertilizer));

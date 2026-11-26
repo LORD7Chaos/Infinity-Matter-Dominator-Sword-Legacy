@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "waa:compressed_chaos_block"
+    }
+  },
+  "result": {
+    "item": "waa:double_compressed_chaos_block",
+    "count": 1
+  }
+}
